@@ -3,8 +3,9 @@ langchain
 langchain-community
 chromadb
 sentence-transformers==2.2.2
-torch==2.0.1
 transformers==4.31.0
 python-dotenv
 PyPDF2
 python-docx
+docx2txt
+pysqlite3-binary
