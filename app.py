@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 PERSIST_DIR = "db"
 
 # Streamlit page setup
-st.set_page_config(page_title="⚖️ AI Legal Chatbot (Free & Local)", layout="wide")
+st.set_page_config(page_title="⚖️ AI Legal Chatbot For Lawyers", layout="wide")
 
 # Elegant Dark Theme
 st.markdown("""
@@ -191,7 +191,7 @@ def create_rag_chain(vectordb):
         return None
 
 # Header
-st.markdown("<h1>⚖️ AI Legal Chatbot (Free & Local)</h1>", unsafe_allow_html=True)
+st.markdown("<h1>⚖️ AI LAWYER </h1>", unsafe_allow_html=True)
 st.markdown("""
 <div class="model-info">
 <b>Model:</b> Phi-3 via Ollama (Local, Free)<br>
